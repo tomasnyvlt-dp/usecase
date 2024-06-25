@@ -23,9 +23,9 @@ importers:
       '@jest/globals':
         specifier: ^29.7.0
         version: 29.7.0
-      '@tomasnyvlt/tomasnyvlt-dp':
-        specifier: 0.0.11
-        version: 0.0.11(@data-driven-forms/common@3.22.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@data-driven-forms/react-form-renderer@3.22.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(@xstyled/emotion@3.8.1(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1)))(@xstyled/system@3.8.1)(final-form@4.20.10)(immutable@3.8.2)(next@14.2.3(@babel/core@7.24.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(prop-types@15.8.1)(react-dom@18.3.1(react@18.3.1))(react-final-form@6.5.9(final-form@4.20.10)(react@18.3.1))(react@18.3.1)
+      '@tomasnyvlt-dp/lib':
+        specifier: 0.0.8
+        version: 0.0.8(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(@xstyled/emotion@3.8.1(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1)))(@xstyled/system@3.8.1)(final-form@4.20.10)(immutable@3.8.2)(next@14.2.3(@babel/core@7.24.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(prop-types@15.8.1)(react-dom@18.3.1(react@18.3.1))(react-final-form@6.5.9(final-form@4.20.10)(react@18.3.1))(react@18.3.1)
       '@xstyled/emotion':
         specifier: ^3.8.1
         version: 3.8.1(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1))
@@ -659,11 +659,9 @@ packages:
       react: '>=16.8'
       react-dom: '>=16.8'
 
-  '@tomasnyvlt/tomasnyvlt-dp@0.0.11':
-    resolution: {integrity: sha512-5DUIqryDvH5mtx/KD2YXJsR8s1uQOmDhrAKlDSVwWtkhQHACBoOW/cnyUPN64FeR3nptlG9Q2WRuOT2qcep3Mw==, tarball: https://npm.pkg.github.com/download/@tomasnyvlt/tomasnyvlt-dp/0.0.11/a5b3488944eef7953d9b7dda4ef6d51569076d3d}
+  '@tomasnyvlt-dp/lib@0.0.8':
+    resolution: {integrity: sha512-DI3giAF76cH6X3jd3R1wShMc7G1SBrlDLLENX4jw0qki7ML3dx/ReSq7+NzoTYThmCNiPMcJFWxqp4h/CIpY0w==, tarball: https://npm.pkg.github.com/download/@tomasnyvlt-dp/lib/0.0.8/fc0fca0daea438e992f5b13b59b190ef90a08039}
     peerDependencies:
-      '@data-driven-forms/common': '>=3'
-      '@data-driven-forms/react-form-renderer': '>=3'
       '@xstyled/emotion': 3.6.0
       '@xstyled/system': 3.6.0
       next: '>=14'
@@ -3381,7 +3379,7 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       tippy.js: 6.3.7
 
-  '@tomasnyvlt/tomasnyvlt-dp@0.0.11(@data-driven-forms/common@3.22.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@data-driven-forms/react-form-renderer@3.22.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(@xstyled/emotion@3.8.1(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1)))(@xstyled/system@3.8.1)(final-form@4.20.10)(immutable@3.8.2)(next@14.2.3(@babel/core@7.24.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(prop-types@15.8.1)(react-dom@18.3.1(react@18.3.1))(react-final-form@6.5.9(final-form@4.20.10)(react@18.3.1))(react@18.3.1)':
+  '@tomasnyvlt-dp/lib@0.0.8(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(@xstyled/emotion@3.8.1(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@emotion/styled@11.11.5(@emotion/react@11.11.4(@types/react@18.3.3)(react@18.3.1))(@types/react@18.3.3)(react@18.3.1)))(@xstyled/system@3.8.1)(final-form@4.20.10)(immutable@3.8.2)(next@14.2.3(@babel/core@7.24.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(prop-types@15.8.1)(react-dom@18.3.1(react@18.3.1))(react-final-form@6.5.9(final-form@4.20.10)(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@data-driven-forms/common': 3.22.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@data-driven-forms/react-form-renderer': 3.22.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)

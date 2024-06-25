@@ -1,5 +1,5 @@
 import { HELPER } from '@/constants/helper';
-import { SectionType } from "@tomasnyvlt/tomasnyvlt-dp";
+import { SectionType } from "@tomasnyvlt-dp/lib";
 import getRandomId from '@/utils/getRandomId';
 import { getPersonSectionFields } from '@/schema/schemas/common/getPersonSectionFields';
 

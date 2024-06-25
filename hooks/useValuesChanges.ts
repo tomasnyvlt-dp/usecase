@@ -2,7 +2,7 @@ import { useFormApi } from '@data-driven-forms/react-form-renderer';
 import { useEffect, useRef, useState } from 'react';
 
 import { DELETE_PREFIX_VALUE } from '@/utils/getRandomId';
-import { FAKE_FIELD_NAME_PREFIX } from '@tomasnyvlt/tomasnyvlt-dp';
+import { FAKE_FIELD_NAME_PREFIX } from '@tomasnyvlt-dp/lib';
 import { FORM_STORE_REFRESH_TRIGGER_KEY } from '@/constants/fields';
 import { getObjectChanges } from '@/utils/getObjectChanges';
 

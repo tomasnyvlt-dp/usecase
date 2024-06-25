@@ -1,4 +1,4 @@
-import { SectionType } from "@tomasnyvlt/tomasnyvlt-dp";
+import { SectionType } from "@tomasnyvlt-dp/lib";
 import getRandomId from '@/utils/getRandomId';
 
 interface CheckboxSettingType {

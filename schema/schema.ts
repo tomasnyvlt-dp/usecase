@@ -1,4 +1,4 @@
-import { SchemaType } from "@tomasnyvlt/tomasnyvlt-dp";
+import { SchemaType } from "@tomasnyvlt-dp/lib";
 import { CAR_INSURANCE_FORM_BODY_LS_KEY } from '@/schema/constants';
 import bonusCalculationSection from '@/schema/schemas/step1/bonusCalculationSection';
 import { insuranceDate } from '@/schema/schemas/step1/insuranceDate';

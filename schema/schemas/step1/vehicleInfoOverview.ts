@@ -1,4 +1,4 @@
-import { SectionType } from "@tomasnyvlt/tomasnyvlt-dp";
+import { SectionType } from "@tomasnyvlt-dp/lib";
 import getRandomId from '@/utils/getRandomId';
 import { VehicleImageType } from '@/schema/schemas/constants/vehicleImageType';
 import { confTariffVehicleManufacturerModelFe } from '@/codetables/generated/conf-tariff-vehicle-manufacturer-model-fe';

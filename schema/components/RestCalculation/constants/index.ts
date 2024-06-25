@@ -1,4 +1,4 @@
-import { FormFieldsType } from '@tomasnyvlt/tomasnyvlt-dp';
+import { FormFieldsType } from '@tomasnyvlt-dp/lib';
 import { FIELD_NAMES } from '@/schema/schemas/constants/fieldNames';
 
 export const CALCULATION_ACTIVE_ON_STEPS = [0, 1, 2, 3];

@@ -1,4 +1,4 @@
-import { OptionType } from "@tomasnyvlt/tomasnyvlt-dp";
+import { OptionType } from "@tomasnyvlt-dp/lib";
 import getFormattedDate from '@/utils/getFormattedDate';
 import { Address, PartnerInfoType } from '@/schema/types/PartnerInfoType';
 

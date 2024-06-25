@@ -1,5 +1,5 @@
 import { FormFetcherType } from "@/fetcher";
-import { FormStoreContext, FormStoreContextType } from "@tomasnyvlt/tomasnyvlt-dp";
+import { FormStoreContext, FormStoreContextType } from "@tomasnyvlt-dp/lib";
 import { useContext } from "react";
 
 export const useFormStoreContext = <

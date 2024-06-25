@@ -1,6 +1,6 @@
 import getFlattenObject from '@/utils/getFlattenObject';
 import { AnyObject } from '@data-driven-forms/react-form-renderer';
-import { FAKE_FIELD_NAME_PREFIX } from '@tomasnyvlt/tomasnyvlt-dp';
+import { FAKE_FIELD_NAME_PREFIX } from '@tomasnyvlt-dp/lib';
 
 export type ValidationErrors = AnyObject | undefined;
 

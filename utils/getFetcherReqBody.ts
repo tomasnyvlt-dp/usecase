@@ -1,5 +1,5 @@
 import { FetcherRequestType, FormFetcherType } from "@/fetcher";
-import { formStoreInstance } from "@tomasnyvlt/tomasnyvlt-dp";
+import { formStoreInstance } from "@tomasnyvlt-dp/lib";
 
 export const getFetcherReqBody = <T extends FormFetcherType>(formType: T): FetcherRequestType<T> | undefined => {
   const formInstance = formStoreInstance.get(formType);

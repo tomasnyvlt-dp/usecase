@@ -11,8 +11,8 @@ import {
   MaskedPatternFieldType,
   OptionType,
   SectionType,
-} from "@tomasnyvlt/tomasnyvlt-dp";
-import { ValidationType } from '@tomasnyvlt/tomasnyvlt-dp';
+} from "@tomasnyvlt-dp/lib";
+import { ValidationType } from '@tomasnyvlt-dp/lib';
 import getRandomId from '@/utils/getRandomId';
 
 type PartiallyOptional<T, K extends keyof T> = Omit<T, K> & Partial<Pick<T, K>>;

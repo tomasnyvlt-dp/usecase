@@ -1,4 +1,4 @@
-import { SMARTFORM_WHOLE_ADDRESS_SUFFIX } from "@tomasnyvlt/tomasnyvlt-dp";
+import { SMARTFORM_WHOLE_ADDRESS_SUFFIX } from "@tomasnyvlt-dp/lib";
 
 /**
  * Return first visible element in the DOM

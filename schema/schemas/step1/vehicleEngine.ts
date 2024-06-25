@@ -1,5 +1,5 @@
 import { VALIDATION_MESSAGE } from '@/constants/validation';
-import { OptionType, SectionType } from "@tomasnyvlt/tomasnyvlt-dp";
+import { OptionType, SectionType } from "@tomasnyvlt-dp/lib";
 import getRandomId from '@/utils/getRandomId';
 import { getOrvHelper } from '@/schema/schemas/utils/getOrvHelper';
 import { vehicleCategory } from '@/schema/types/VehicleInfoType';

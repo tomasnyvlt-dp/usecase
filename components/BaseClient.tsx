@@ -1,7 +1,7 @@
 "use client";
 import { createGlobalStyle } from "@xstyled/emotion";
 import { ReactNode } from "react";
-import { Provider } from "@tomasnyvlt/tomasnyvlt-dp";
+import { Provider } from "@tomasnyvlt-dp/lib";
 
 export const GlobalStyles = createGlobalStyle`
   @font-face {

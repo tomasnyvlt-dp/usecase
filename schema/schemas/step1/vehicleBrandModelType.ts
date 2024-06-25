@@ -1,4 +1,4 @@
-import { OptionType, SectionType } from "@tomasnyvlt/tomasnyvlt-dp";
+import { OptionType, SectionType } from "@tomasnyvlt-dp/lib";
 import getRandomId from '@/utils/getRandomId';
 import { confVehicleInsuranceFeEnumsVehicleTypeFe } from '@/codetables/generated/conf-vehicle-insurance-fe-enums-vehicle-type-fe';
 import { confTariffVehicleManufacturerModelFe } from '@/codetables/generated/conf-tariff-vehicle-manufacturer-model-fe';

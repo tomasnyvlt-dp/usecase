@@ -1,4 +1,4 @@
-import { OptionType } from '@tomasnyvlt/tomasnyvlt-dp';
+import { OptionType } from '@tomasnyvlt-dp/lib';
 import getPersonRequestData from '@/schema/components/RestCalculation/utils/getPersonRequestData';
 import {
   FIELD_NAMES,

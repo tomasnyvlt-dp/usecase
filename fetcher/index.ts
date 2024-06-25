@@ -2,7 +2,7 @@ import {
   AutoSjednavacFetchRequestType,
   AutoSjednavacFetchResponseType,
 } from '@/schema/types/AutoSjednavacFetchType';
-import { FormType } from '@tomasnyvlt/tomasnyvlt-dp';
+import { FormType } from '@tomasnyvlt-dp/lib';
 
 
 // Make sure that the keys of FetcherRequestOptionType and FetcherResponseOptionType are the same

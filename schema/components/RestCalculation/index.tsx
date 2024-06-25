@@ -4,7 +4,7 @@ import { FC, useCallback, useContext, useEffect, useRef } from 'react';
 
 import { useFormStoreContext } from '@/hooks/useFormStoreContext';
 import { useValuesChanges } from '@/hooks/useValuesChanges';
-import { FormFieldsType } from "@tomasnyvlt/tomasnyvlt-dp";
+import { FormFieldsType } from "@tomasnyvlt-dp/lib";
 import {
   CALCULATION_ACTIVE_ON_STEPS,
   dateSectionFieldNames,

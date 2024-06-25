@@ -2,8 +2,8 @@ import { addDays } from 'date-fns';
 
 import { FORM_STORE_REFRESH_TRIGGER_KEY } from '@/constants/fields';
 import { VALIDATION_MESSAGE } from '@/constants/validation';
-import { SectionType } from "@tomasnyvlt/tomasnyvlt-dp";
-import { getFetcherData } from '@tomasnyvlt/tomasnyvlt-dp';
+import { SectionType } from "@tomasnyvlt-dp/lib";
+import { getFetcherData } from '@tomasnyvlt-dp/lib';
 import getRandomId from '@/utils/getRandomId';
 import { FEATURE_FLAGS } from '@/schema/schemas/constants/featureFlags';
 import { FIELD_NAMES } from '@/schema/schemas/constants/fieldNames';

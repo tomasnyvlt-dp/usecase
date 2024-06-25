@@ -1,5 +1,5 @@
 import { FORM_STORE_REFRESH_TRIGGER_KEY } from '@/constants/fields';
-import { GridType } from "@tomasnyvlt/tomasnyvlt-dp";
+import { GridType } from "@tomasnyvlt-dp/lib";
 import { getFetcherReqBody } from '@/utils/getFetcherReqBody';
 import getRandomId from '@/utils/getRandomId';
 import { cascoDiscountVisibleCondition } from '@/schema/schemas/common/cascoDiscountVisibleCondition';

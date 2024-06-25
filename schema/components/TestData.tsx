@@ -1,7 +1,7 @@
 import config from "@/config";
 import { useFormApi } from "@data-driven-forms/react-form-renderer";
 import WizardContext from "@data-driven-forms/react-form-renderer/wizard-context";
-import { DirectButton } from "@tomasnyvlt/tomasnyvlt-dp";
+import { DirectButton } from "@tomasnyvlt-dp/lib";
 import { FC, useCallback, useContext } from "react";
 
 /**

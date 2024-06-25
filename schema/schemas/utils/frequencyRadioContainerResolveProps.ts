@@ -4,8 +4,8 @@ import {
   FormOptions,
 } from '@data-driven-forms/react-form-renderer';
 
-import { RadioFrequencyButtonOptionFieldType } from "@tomasnyvlt/tomasnyvlt-dp";
-import { getFetcherData } from '@tomasnyvlt/tomasnyvlt-dp';
+import { RadioFrequencyButtonOptionFieldType } from "@tomasnyvlt-dp/lib";
+import { getFetcherData } from '@tomasnyvlt-dp/lib';
 import { FIELD_NAMES } from '@/schema/schemas/constants/fieldNames';
 import { AutoSjednavacFetchRequestType } from '@/schema/types/AutoSjednavacFetchType';
 import { coreCcEnumerationsFrequency } from '@/codetables/generated/core-cc-enumerations-frequency';
